@@ -1,3 +1,4 @@
+#jobs
 from sqlalchemy import  Column, Integer, Float, String, Boolean, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from db.base_class import Base
