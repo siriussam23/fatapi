@@ -10,7 +10,7 @@ class cpm(Base):
     total_recipients = Column(Float, nullable=False)
     date_posted = Column(DateTime)
     is_active = Column(Boolean(),default = True)
-    owner_id = Column (Integer, ForeignKey('accounts.id'))
+    owner_id = Column (Integer, ForeignKey("Campaign.id"))
     owner = relationship("Campaign", back_populates= "costs")
 
 

@@ -7,3 +7,7 @@ psycopg2
 
  # for env var
 python-dotenv
+
+# For testing 
+pytest
+requests
